@@ -6,6 +6,7 @@ def read_from_file(file_path: str) -> pd.DataFrame:
     """
     # 读取 CSV
     df = pd.read_csv(file_path)
+    print("12121212")
     return df
 
 def main():
